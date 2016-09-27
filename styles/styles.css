@@ -10,8 +10,7 @@ html {
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 200;
-  background-image: url("");
+  font-weight: 200px;
 
 }
 
@@ -21,13 +20,17 @@ ul .nav {
   display: inline;
 }
 
-
 h1, h2, h3, h4 {
   font-weight: 300;
 }
 
 img {
   max-width: 100%;
+  background-image: url("http://assets.rbl.ms/4155638/980x.jpg");
+}
+
+.tagline__image {
+  background-image: url("../images/lights.jpeg");
 }
 
 .hero__container, .section__container {
@@ -45,8 +48,8 @@ img {
 
   padding: 0 1rem;
 
-  background: url(images/lightbulb.jpg);
-    linear-gradient(to left, #2c3e50, #e74c3c);
+  background: url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"),
+  linear-gradient(to left, #2c3e50, #e74c3c);
   color: #ecf0f1;
 }
 
@@ -93,8 +96,6 @@ ul.nav-group {
 .nav-group__item:hover {
   opacity: 1;
 }
-
-.btn { display: inline-block;border: currentColor 1px solid;line-height: 1em;border-radius: 2em padding: 0.5em;color: inherit;text-decoration: none }
 
 .hero .btn {
   margin-top: 1rem;
