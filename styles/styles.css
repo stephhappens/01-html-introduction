@@ -4,19 +4,23 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+
 }
 
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 200;
+  background-image: url("");
+
 }
 
-ul {
-  padding-left: 0;
-
-  list-style: none;
+ul .nav {
+  text-align: right;
+  list-style-type: none;
+  display: inline;
 }
+
 
 h1, h2, h3, h4 {
   font-weight: 300;
@@ -41,7 +45,7 @@ img {
 
   padding: 0 1rem;
 
-  background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png),
+  background: url(images/lightbulb.jpg);
     linear-gradient(to left, #2c3e50, #e74c3c);
   color: #ecf0f1;
 }
