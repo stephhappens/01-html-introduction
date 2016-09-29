@@ -36,7 +36,6 @@ img {
 .hero__container, .section__container {
   width: 100%;
   max-width: 65rem
-
   margin: auto;
 }
 
@@ -55,8 +54,7 @@ img {
 
 .hero__fill {
   flex-grow: 1;
-
-  display: flex
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -66,15 +64,14 @@ img {
   margin: 0;
 }
 
-.nav-flex
+.nav-flex {
   display: flex;
-
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .nav-group {
   font-size: 1.2rem;
-  margin 1rem 0;
+  margin: 1rem 0;
 }
 
 .nav-group a {
@@ -85,6 +82,7 @@ img {
 ul.nav-group {
   display: flex;
   margin: 1rem -0.5rem;
+  list-style-type: none;
 }
 
 .nav-group__item {
@@ -117,7 +115,7 @@ section--info {
   text-align: center;
 }
 
-#fancy-text--big {
+.fancy-text--big {
   font-size: 3rem;
 }
 
@@ -131,7 +129,7 @@ section--info {
 }
 
 .divider {
-  width 20rem;
+  width: 20rem;
   margin: 2rem auto;
 }
 
@@ -144,8 +142,7 @@ section--info {
 
 .row__column {
   margin: 1rem;
-  flex-grow: 1
-
+  flex-grow: 1;
   min-width: 14rem;
 }
 
@@ -164,7 +161,7 @@ section--info {
 .section--photo {
   padding: 6em 1rem;
   background: url('../lights.jpeg') no-repeat center center fixed;
-  background-size cover;
+  background-size: cover;
 
   color: #ecf0f1;
   text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.7);
@@ -172,14 +169,13 @@ section--info {
 }
 
 .photo-title {
-  font-size:
+  font-size: 1em;
 }
 
 .polaroid {
   height: 100%;
   position: relative;
   margin: 0;
-
   filter: contrast(.9) sepia(.2);
   -webkit-filter: contrast(.9) sepia(.2);
 }
@@ -194,7 +190,6 @@ section--info {
   position: absolute;
   top: 0;
   width: 0;
-
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -212,7 +207,6 @@ section--info {
   width: 100%;
   top: 0;
   left: 0;
-
   background: -webkit-radial-gradient(circle,#d0ba8e 20%,#360309 85%,#1d0210 100%);
   background: radial-gradient(circle,#d0ba8e 20%,#360309 85%,#1d0210 100%);
   mix-blend-mode: overlay;
@@ -223,11 +217,10 @@ section--info {
   padding: 1rem;
   overflow: hidden;
   background: #fff;
-
-  box-shadow: 0.2rem 0.1rem 0.4rem rgba(0, 0, 0, 0.4)
+  box-shadow: 0.2rem 0.1rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
-.card
+.card {
   height: 100%;
   padding: 0.5;
   padding-bottom: 3rem;
@@ -235,6 +228,6 @@ section--info {
 
 .student-fact__icon {
   display: block;
-  text-aligncenter;
+  text-align:center;
   margin-bottom: 1rem;
 }
